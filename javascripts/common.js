@@ -29,8 +29,8 @@ $(function(){
         showLabel: false,
         showCount: false,
         shares: [
-            {share: "facebook", logo: "./images/icon-facebook-green.png"},
-            {share: "twitter", logo: "./images/icon-twitter-green.png", text: $('meta[name="twitter:description"]').attr("content") }
+            {share: "facebook", css: "share-facebook-icon"},
+            {share: "twitter", css: "share-twitter-icon", text: $('meta[name="twitter:description"]').attr("content") }
         ]
     });
     $(".kakao-share").click(function(){

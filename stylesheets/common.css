@@ -137,6 +137,47 @@ a{
     margin-right:10px;
 }
 
+.footer .icon {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 8px;
+}
+.footer .icon-parti {
+    background-image:url('../images/icon-parti-gray.png');
+}
+.footer .icon-parti:hover {
+    background-image:url('../images/icon-parti-white.png');
+}
+
+.footer .icon-facebook {
+    background-image:url('../images/icon-facebook-gray.png');
+
+}
+.footer .icon-facebook:hover {
+    background-image:url('../images/icon-facebook-white.png');
+}
+
+.footer .icon-twitter {
+    background-image:url('../images/icon-twitter-gray.png');
+
+}
+.footer .icon-twitter:hover {
+    background-image:url('../images/icon-twitter-white.png');
+}
+
+.footer .icon-envelope {
+    background-image:url('../images/icon-envelope-gray.png');
+
+}
+.footer .icon-envelope:hover {
+    background-image:url('../images/icon-envelope-white.png');
+}
+
+
 .mobile-menu{
     cursor:pointer;
 }
@@ -355,6 +396,12 @@ span.wp-label{
     padding-right: 14px;
     margin-right: 0;
 }
+.jssocials-share a {
+    color: #00b794;
+}
+.jssocials-share a:hover {
+    color: #fff;
+}
 .jssocial-share-container {
     display: inline-block;
 }
@@ -362,8 +409,17 @@ span.wp-label{
     margin-top: 74px;
 }
 .social-share .kakao-share {
-    padding-top: 10px;
-    width: 12px;
+    width: 11px;
+    height: 20px;
+    background-image:url('../images/icon-kakaostory-green.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-bottom: -11px;
+    cursor: pointer;
+}
+.social-share .kakao-share:hover {
+    background-image:url('../images/icon-kakaostory-green.png');
 }
 
 
