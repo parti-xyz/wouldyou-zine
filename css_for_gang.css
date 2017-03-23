@@ -1,0 +1,79 @@
+a{
+    color:#000000;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+
+.header{
+    height:112px;
+    width:100%;
+    padding:30px;
+}
+
+.header > .container > ul{
+    display:inline;
+    float:right;
+}
+
+.header > .container > ul > li{
+    font-size:16px;
+    display:inline;
+    margin-right:22px;
+    font-weight:weight;
+}
+
+.footer{
+    border-top:1px solid #333333;
+    height:100px;
+    background-color:#000000;
+    width:100%;
+}
+
+.content{
+    background-color:#000000;
+    height:880px;
+    padding:70px 0px;
+}
+
+.card{
+    display:inline-block;
+    
+}
+.cover{
+    width:320px;
+    height:500px;
+    background-color: #dedede;
+}
+
+.sub-title{
+    font-family: 'Apple SD Gothic Neo';
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: -0.0667em;
+    line-height: 25px;
+    font-weight:700;
+    display:inline-block;
+    margin:15px 0px;
+}
+
+.gubun{
+    background-color:#9241cb;
+    color:#ffffff;
+    font-weight:600;
+    line-height:30px;
+    font-size:15px;
+    padding:2px;
+}
+
+.list{
+    letter-spacing: -0.07em;
+    color:#ffffff;
+}
