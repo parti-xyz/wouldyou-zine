@@ -1,3 +1,8 @@
+*{
+    font-family: 'Noto Sans Kr', sans-serif;
+    letter-spacing: -0.0667em;
+}
+
 body{
     background-color:#000000;
 }
@@ -23,16 +28,20 @@ ul{
     background-color:#ffffff;
 }
 
-.header > .container > ul{
+.menu{
+    margin-top:-20px;
+}
+
+.header > .container > .menu > ul{
     display:inline;
     float:right;
 }
 
-.header > .container > ul > li{
-    font-size:16px;
+.header > .container > .menu > ul > li{
+    font-size:15px;
     display:inline;
     margin-right:22px;
-    font-weight:weight;
+    font-weight:600;
 }
 
 .footer{
@@ -62,6 +71,7 @@ ul{
     height:500px;
     background-color: #dedede;
     padding:26px 23px;
+    cursor:pointer;
 }
 
 .sub-title{
@@ -97,9 +107,36 @@ ul{
     text-align: left;
 }
 
+/* mobile-menu */
+.mobile-menu{display:none;}
+.mobile-open-menu{
+    padding-top:30px;
+    width:100%;
+    height:100%;
+    position:absolute;
+    z-index:1;
+    background-color:rgba(0,0,0,.9);
+}
+
+.mobile-open-menu > ul > li > a{
+    color:#ffffff !important;
+    letter-spacing: -0.07em;
+    line-height: 80px;
+    font-size:30px;
+    font-weight:600;
+
+}
+
+.mobile-open-menu > ul{
+    display:inline;
+    list-style-type: none;
+    text-align: center;
+}
+
+
 /* Tablet & Desktop Device */
 @media all and (min-width:768px) {
-    
+     
 }
 
 /* Tablet Device */
@@ -113,8 +150,14 @@ ul{
 }
 
 /* Mobile Device */
-@media
-only screen and (max-device-width:640px) and (device-aspect-ratio:9/16),
-only screen and (max-device-width:640px) and (device-aspect-ratio:16/9) {
-    
+@media all and (max-width:640px) {
+    .header{ padding:0px; height:55px; }
+    .header > .container { padding:15px 20px;}
+    .header svg { width:100px; height:29px; }
+    .container{ padding:20px; }
+    .zine { margin:0px; }
+    .list { margin-bottom:20px; }
+    .menu { display:none; }
+    .mobile-menu { display:inline-block !important; float:right; cursor:pointer; }
+    .logo { display:inline-block;}
 }
