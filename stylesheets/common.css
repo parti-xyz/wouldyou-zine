@@ -1,0 +1,43 @@
+.footer img{
+    margin-right:10px;
+}
+
+.footer .icon {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 8px;
+}
+.footer .icon-parti {
+    background-image:url('../images/icon-parti-gray.png');
+}
+.footer .icon-parti:hover {
+    background-image:url('../images/icon-parti-white.png');
+}
+
+.footer .icon-facebook {
+    background-image:url('../images/icon-facebook-gray.png');
+
+}
+.footer .icon-facebook:hover {
+    background-image:url('../images/icon-facebook-white.png');
+}
+
+.footer .icon-twitter {
+    background-image:url('../images/icon-twitter-gray.png');
+
+}
+.footer .icon-twitter:hover {
+    background-image:url('../images/icon-twitter-white.png');
+}
+
+.footer .icon-envelope {
+    background-image:url('../images/icon-envelope-gray.png');
+
+}
+.footer .icon-envelope:hover {
+    background-image:url('../images/icon-envelope-white.png');
+}
