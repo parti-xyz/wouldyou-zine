@@ -10,7 +10,7 @@ $(function(){
     })
 
     $("#more-btn, #more-btn-small").click(function(){
-        location.href="http://wouldyouparty.org/articles";
+        location.href="http://wouldyouparty.org/articles?tag=%EC%97%AC%EC%84%B1";
     })
 
     $("#reg-btn").click(function(){
