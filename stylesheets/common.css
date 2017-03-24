@@ -1,3 +1,12 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+*{
+    font-family: 'Noto Sans Kr', sans-serif;
+    letter-spacing: -0.0667em;
+}
+
+
+
+/* footer */
 .footer img{
     margin-right:10px;
 }

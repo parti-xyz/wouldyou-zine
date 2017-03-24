@@ -133,15 +133,11 @@ a{
     height:100%;
 }
 
-
-
-
 .mobile-menu{
     cursor:pointer;
 }
 
 @media all and (min-width:1400px){
-    .header{     }
 }
 
 @media all and (min-width:950px){
