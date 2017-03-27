@@ -186,7 +186,7 @@ a{
     .camp-card { min-width:300px; height:575px; }
     .camp-card > .photo,.camp-card > .detail { display:block; }
     .camp-card > .photo { width:100% !important; background-size:cover; }
-    .camp-card > .detail { width:300px !important; }
+    .camp-card > .detail { width:100% !important; min-width:300px; }
     .desc { line-height: 28px; }
     .footer {
         padding: 18px 20px !important;
