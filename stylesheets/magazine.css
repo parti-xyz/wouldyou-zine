@@ -474,14 +474,14 @@ a:hover{
     margin:15px 0px;
 }
 
-.camp-card .sns > span{
+.camp-card .sns > a{
     font-size: 16px;
     color: #b5b5b5;
     letter-spacing: -0.07em;
     line-height: 27px;
 }
 
-.sns > span:hover{
+.sns > a:hover{
     cursor:pointer;
     color:#9241cb;
 }
