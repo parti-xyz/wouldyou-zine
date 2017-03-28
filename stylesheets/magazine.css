@@ -140,6 +140,8 @@ a{
     position: relative;
 }
 
+
+
 @media all and (min-width:1400px){
 }
 
@@ -189,13 +191,16 @@ a{
     /*section*/
     #femi-section{ background-position-x:-270px;}
     #taxi-section{ background-image:url('../images/taxi_mobile.png') !important;}
-    #vote-section{  height:3100px; padding:3px !important; }
-    .camp-card { min-width:250px; height:575px; }
+    #vote-section{  height:3300px; }
+    .camp-card { min-width:250px; height:620px; }
     .camp-card > .photo,.camp-card > .detail { display:block; }
     .camp-card > .photo { width:100% !important; background-size:cover; }
     .camp-card > .detail { width:100% !important; min-width:250px; }
     .comment { font-size:14px !important; }
     .desc { line-height: 28px; }
+    .govcraft-vote-widget {
+        max-width: 220px;
+    }
     .footer {
         padding: 18px 20px !important;
         height: 88px !important;
