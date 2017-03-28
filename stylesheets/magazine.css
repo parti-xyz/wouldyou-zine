@@ -493,6 +493,7 @@ a:hover{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    margin-bottom: -6px;
     margin-right: 8px;
     cursor:pointer;
 }
