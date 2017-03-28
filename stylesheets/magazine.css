@@ -136,6 +136,10 @@ a{
     cursor:pointer;
 }
 
+.camp-card {
+    position: relative;
+}
+
 @media all and (min-width:1400px){
 }
 
@@ -145,7 +149,7 @@ a{
     .section{  display:inline-block;  }
     .mobile-menu, .mobile-title { display:none; }
     .camp-card {    width:100%;height:300px;    }
-    
+
     #femi-section{ background-position-x:-270px;}
     #vote-section{ height:1700px;}
     #moim-section{ background-position-x:-230px;}
@@ -160,8 +164,10 @@ a{
     .web-menu, .mobile-title {display:none;}
     .header { margin:0px; height:500px !important; }
     .camp-card{ display:block;width:100%;height:300px; }
+
     .detail{ float:left !important; width:400px !important;}
     .photo{float:left;}
+
     #femi-section{ background-position-x:-50px;}
     #vote-section{ height:1700px;}
     .camp-card { min-width:760px; }
@@ -179,7 +185,7 @@ a{
     .news-item.last, .web-menu, .web-title, .web-block {display:none;}
     .mobile-title{display:block;}
     .header{ background-image:url('../images/march_cover_mobile_960.png'); }
-    
+
     /*section*/
     #femi-section{ background-position-x:-270px;}
     #taxi-section{ background-image:url('../images/taxi_mobile.png') !important;}
