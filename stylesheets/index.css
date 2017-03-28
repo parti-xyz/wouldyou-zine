@@ -67,6 +67,7 @@ ul{
     background-color: #dedede;
     padding:26px 23px;
     cursor:pointer;
+    margin:0 auto;
 }
 
 .sub-title{
@@ -130,7 +131,7 @@ ul{
 
 
 .cover{
-    background-size:contain;
+    background-size:cover;
 }
 
 
@@ -155,9 +156,10 @@ ul{
     .header > .container { padding:15px 20px;}
     .header svg { width:100px; height:29px; }
     .container{ padding:20px; }
-    .zine { margin:0px; }
+    .zine { margin:0px; display:block !important;}
     .list { margin-bottom:20px; }
     .menu { display:none; }
     .mobile-menu { display:inline-block !important; float:right; cursor:pointer; }
     .logo { display:inline-block;}
+    .cover{ max-width:320px; width:100%!important; height:435px !important; }
 }
