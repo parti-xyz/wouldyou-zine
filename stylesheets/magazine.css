@@ -499,15 +499,15 @@ a:hover{
 }
 
 .icon-facebook-camp{
-    background-image:url('../images/facebook-logo-1_copy_9.png');
+    background-image:url('../images/icon-facebook-purple-before.png');
 }
 .icon-facebook-camp:hover{
-    background-image:url('../images/facebook-logo-1_copy_14.png');
+    background-image:url('../images/icon-facebook-purple.png');
 }
 
 .icon-twitter-camp{
-    background-image:url('../images/twitter-logo-silhouette-1_copy_9.png');
+    background-image:url('../images/icon-twitter-purple-before.png');
 }
 .icon-twitter-camp:hover{
-    background-image:url('../images/twitter-logo-silhouette-1_copy_14.png');
+    background-image:url('../images/icon-twitter-purple.png');
 }
