@@ -1,3 +1,47 @@
 .header{
     background-image:none;
+    background: rgba(101,110,115,1);
+background: rgba(101,110,115,1);
+background: -moz-linear-gradient(top, rgba(101,110,115,1) 0%, rgba(101,110,115,0.98) 32%, rgba(249,235,126,0.93) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(101,110,115,1)), color-stop(32%, rgba(101,110,115,0.98)), color-stop(100%, rgba(249,235,126,0.93)));
+background: -webkit-linear-gradient(top, rgba(101,110,115,1) 0%, rgba(101,110,115,0.98) 32%, rgba(249,235,126,0.93) 100%);
+background: -o-linear-gradient(top, rgba(101,110,115,1) 0%, rgba(101,110,115,0.98) 32%, rgba(249,235,126,0.93) 100%);
+background: -ms-linear-gradient(top, rgba(101,110,115,1) 0%, rgba(101,110,115,0.98) 32%, rgba(249,235,126,0.93) 100%);
+background: linear-gradient(to bottom, rgba(101,110,115,1) 0%, rgba(101,110,115,0.98) 32%, rgba(249,235,126,0.93) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#656e73', endColorstr='#f9eb7e', GradientType=0 );
+}
+
+.header path, polygon#Fill-1, polygon#Fill-2, polygon#Fill-12, polygon#Fill-11, polygon#Fill-10, polygon#Fill-5, polygon#Fill-7 {
+    fill:#F9EB7E;
+}
+
+.header li > a{
+    color:#ffffff !important;
+}
+
+.sub-title{
+    color:#ffffff;
+}
+
+#words-section{
+    background-image:url('../images/201704/horses.jpg');
+    background-size:cover;
+    background-position-x:-300px;
+}
+
+#moim-section{
+    background-image:url('../images/moim_mobile.jpg');
+}
+
+span.wp-label{
+    background-color:#F9EB7E;
+    color:#424242;
+}
+
+.background-white.link:hover {
+    background-color: rgba(101,110,115,1);
+}
+
+.section h4{
+    cursor:pointer;
 }
