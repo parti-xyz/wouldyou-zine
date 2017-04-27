@@ -24,13 +24,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#656e73', end
 }
 
 #words-section{
-    background-image:url('../images/201704/horses.jpg');
+    background-image:url('../images/201704/office-336368_1280.jpg');
     background-size:cover;
-    background-position-x:-300px;
 }
 
 #moim-section{
     background-image:url('../images/moim_mobile.jpg');
+}
+
+#quiz-section{
+    background-color:#2e2e2e;
 }
 
 span.wp-label{
@@ -44,4 +47,16 @@ span.wp-label{
 
 .section h4{
     cursor:pointer;
+}
+
+.quiz-result{
+    color:#F9EB7E;
+}
+
+#quiz-section p > a{
+    color:#F9EB7E;
+}
+
+.desc-detail:hover {
+    color: dimgray;
 }

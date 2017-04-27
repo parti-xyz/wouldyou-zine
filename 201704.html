@@ -28,11 +28,24 @@
     <meta name="image" content="http://zine.wouldyouparty.org/images/march_seo.png" />
     <meta name="description" content="매거진형 정치 참여 프로젝트 <월간우주당>, 4월 세월호를 기억합니다" />
     <meta name="keywords" content="우주당, 월간우주당, 우리가주인이당, 세월호" />
-    <link href='./images/favicon.png' rel='icon' sizes='32x32' type='image/png'>
+   <link href='./images/favicon.png' rel='icon' sizes='32x32' type='image/png'>
     <meta content='#ffffff' name='theme-color'>
     <title>월간우주당 - REMEMBER 0416</title>
 </head>
-
+<script>
+$(document).ready(function(){
+    $("#quiz-section input").click(function(){
+        if($(this).attr("id") == "res-no"){
+            $(".quiz-result").hide();
+            $("#correct").show();
+        }else{
+            $(".quiz-result").hide();
+            $("#incorrect").show();
+        }
+        $("#quiz-section .content-area").toggle();
+    })
+})    
+</script>
 <body>
     <div class="mobile-open-menu" style="display:none;">
         <img src="./images/group_close.png" id="closeBtn" style="float:right;cursor:pointer;margin-right:23px;"/>
@@ -116,46 +129,104 @@
     <div class="container">
         <div class="section-container">
             <div class="section small" id="words-section">
-                <div class="overlay"  style="background-color:rgba(0,0,0,.6);">
+                <div class="overlay"  style="background-color:rgba(0,0,0,.3);">
                     <div class="content-area">
-                        <span class="wp-label">모음</span>
-                        <h4 style="color:#ffffff;">대선주자들의 세월호 말/말/말</h4>
-                        <div class="detail-link">
-                            <!-- <span>택시에서 소행성 ></span><br/> -->
+                        <span class="wp-label">분석</span>
+                        <h4 style="color:#ffffff;">세월호 뉴스 키워드 분석</h4>
+                        <div class="not-yet-open-date" style="margin-top:120px;">
+                            <h3>COMING SOON!</h3>
+                            <span>5월 OPEN</span>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="section middle" id="taxi-section" >
+            <div class="section middle" id="quiz-section" >
                 <div class="overlay" style="background-color:rgba(0,0,0,.5);">
-                    <a href="https://medium.com/@wouldyouparty/%ED%81%AC%EB%A0%88%EC%9D%B4%EC%A7%80%EC%BA%A0%ED%8E%98%EC%9D%B8-%EC%9A%B0%EB%A6%AC%EC%97%90%EA%B2%8C%EB%8F%84-%EB%A7%88%EC%9D%8C-%EB%86%93%EA%B3%A0-%ED%83%9D%EC%8B%9C%EB%A5%BC-%ED%83%88-%EA%B6%8C%EB%A6%AC%EA%B0%80-%EC%9E%88%EB%8B%A4-de030cc6e72c#.z8z4uycpq" target="_blank">
-                        <div class="content-area">
-                            <span class="wp-label">청원</span>
-                            <h4 style="color:rgba(255, 255, 255, 1);">세월호의 자료들, 국민은 알권리가 있습니다</h4>
-                            <div class="detail-link">
-                                <div sytle="display: none"><a></a>
-                                </div>
-                                <br>
-                                <span class="background-white link">
-                                    <a href="https://storyfunding.daum.net/project/14301" target="_blank">
-                                        청원 스토리 보러가기 &gt;
-                                    </a>    
-                                </span>
-                                <br>
-                                <span class="background-white link">
-                                    <a href="https://storyfunding.daum.net/project/14301" target="_blank">세월호 아카이브 후원하기 &gt;</a>
-                                </span>
-                            </div>
-                        </div>
-                    </a>
+                    <div class="content-area" style="text-align:center;color:#ffffff;padding-top:130px;">
+                        <span class="wp-label" style="border-radius:5px;background-color:#68c5b8;">돌/발/퀴/즈</span>
+                        <h3 style="line-height:35px;">누구나 세월호 특조위의 자료를<br/>무료로 열람할 수 있다</h3><br/>
+                        <input type="button" class="btn btn-default btn-lg" id="res-yes" value="당근이다"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="button" class="btn btn-default btn-lg" id="res-no" value="아니다"/> 
+                    </div>
+                    <div class="content-area" style="display:none;">
+                        <span class="wp-label">청원</span>
+                        <h3 id="correct" class="quiz-result">맞았어요! 하지만 심란하죠?</h3>
+                        <h3 id="incorrect" class="quiz-result">틀렸습니다! 어이없죠?</h3>
+                        <p style="padding:20px;background-color:#ffffff;background-color:#252525;color:#ffffff;margin-top:30px;">
+                            세월호 특조위의 모든 자료를 보려면,<br/>
+                            <span style="font-weight:bold;font-size:20px;">총 15억원</span>을 납부해야 합니다.<span class="br"></span>(비영리기관일 경우, 일반은 30억)<br/><br/>
+                            대체 왜? 관련한 이야기를 알고 싶다면,<span class="br"></span>
+                            <a href="https://storyfunding.daum.net/project/14301" target="_blank">
+                                청원 스토리 보러가기 &gt;
+                            </a><span class="br"></span><br/>
+                            세월호 자료 무료 공개를 요구하는 <span class="br"></span>
+                            <a href="https://storyfunding.daum.net/project/14301" target="_blank">세월호 아카이브 후원하기 &gt;</a>
+                        </p>
+                    </div>
                 </div>
             </div>
             <div class="section middle" id="news-section" style="background-color:#f7f7f7">
                 <div class="content-area">
-                    <span class="wp-label">세월호 캘린더</span>
-                    <h4 style="color:rgba(0,0,0,1);">세월호 추모 행사 달력</h4>
-                    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&src=parti.xyz_sfe7r6gtajn851ip6050c924og%40group.calendar.google.com&mode=WEEK&ctz=Asia/Seoul" style="border: 0" width="580" height="400" frameborder="0" scrolling="no"></iframe>
+                    <span class="wp-label">우주뉴스</span>
+                    <h4 style="color:rgba(0,0,0,1);">세월호 관련 뉴스 모음</h4>
+                    <div class="news-area">
+
+                        <div class="news-item">
+                            <h5 class="title"><a href="http://www.mediatoday.co.kr/?mod=news&act=articleView&idxno=136433" target="_blank">제주해군기지용 철근 적재가 괴담이라고?</a></h5>
+                            <span>미디어오늘</span>
+                            <span>2017-04-25</span>
+                        </div>
+                        <div class="news-item">
+                            <h5 class="title"><a href="http://www.nocutnews.co.kr/news/4774449" target="_blank">목포신항 찾은 세월호 추모객 10만명 넘어서</a></h5>
+                            <span>노컷뉴스</span>
+                            <span>2017-04-25</span>
+                        </div>
+                        <div class="news-item">
+                            <h5 class="title">
+                                <a href="http://m.post.naver.com/viewer/postView.nhn?volumeNo=7194116&memberNo=31724756&vType=VERTICAL" target="_blank">
+                                    "잊지 않겠습니다"...세월호 관련 영화들
+                                </a>
+                            </h5>
+                            <span>씨네플레이</span>
+                            <span>2017-04-14</span>
+                        </div>
+                        <div class="news-item">
+                            <h5 class="title"><a href="http://www.hani.co.kr/arti/opinion/column/788189.html#csidxbcf3d9dbdb89e40b65ec31a2e204e8c" target="_blank">[세월호 기고] 무능력의 정치학을 넘어서 / 진은영</a></h5>
+                            <span>한겨레</span>
+                            <span>2017-03-27</span>
+                        </div>
+                        <div class="news-item last">
+                            <h5 class="title">
+                                <a href="http://www.sportsseoul.com/news/read/505043" target="_blank">
+                                    <span class="mobile-title">조소희 작가 세월호 희생자 추모...</span>
+                                    <span class="web-title">조소희 작가 세월호 희생자 추모 프로젝트 '봉선화 기도 304' 전시</span>
+                                </a>
+                            </h5>
+                            <span>스포츠서울</span>
+                            <span>2017-04-20</span>
+                        </div>
+                        <div class="news-item">
+                            <h5 class="title">
+                                <a href="http://www.cine21.com/news/view/?mag_id=86949" target="_blank">
+                                    <span class="mobile-title">[스페셜] 4·16연대 미디어위원회의 두 번째...</span>
+                                    <span class="web-title">[스페셜] 4·16연대 미디어위원회의 두 번째 세월호 참사 프로젝트 <망각과 기억2: 돌아 봄></span>
+                                </a>
+                            </h5>
+                            <span>씨네21</span>
+                            <span>2017-04-17</span>
+                        </div>
+                    </div>
+                    <div class="detail-link about-news" id="news-btn-area">
+                        <a href="http://wouldyouparty.org/articles?tag=%EC%84%B8%EC%9B%94%ED%98%B8" target="_blank">
+                            <input type="button" id="more-btn" class="news-btn" value="우주뉴스 더 보기"/>
+                        </a>
+                        <a href="http://wouldyouparty.org/articles?tag=%EC%84%B8%EC%9B%94%ED%98%B8" target="_blank">
+                            <span id="more-btn-small" style="cursor:pointer;">우주뉴스 더 보기</span>
+                        </a>
+                        <a href="http://wouldyouparty.org/articles/new" target="_blank">
+                            <input type="button"class="news-btn" id="reg-btn" value="직접 뉴스 등록하기"/>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="section small" id="moim-section">

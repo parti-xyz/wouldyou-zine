@@ -160,7 +160,9 @@ a{
 }
 
 @media(max-width:450px){
-    .web-menu, .web-title, .web-block {display:none;}
+    #more-btn{ display:none; }
+    #more-btn-small{display:block !important;}
+    .news-item.last, .web-menu, .web-title, .web-block {display:none;}
     .container{ padding:0px; }
     .logo > svg { width:200px; height:57px; }
     .header { margin:0px; height:500px !important; padding:25px; }
@@ -282,6 +284,51 @@ span.wp-label{
     background-image:url('../images/icon-kakaostory-green.png');
 }
 
+/* news */
+.news-item{
+    border-top:1px solid #dedede;
+    padding:10px 2px;
+    height:57px;
+}
+
+.news-item > h5{
+    margin-top:0px !important;
+    margin-bottom:3px !important;
+    font-size:14px;
+}
+
+.news-item > h5 > a{
+    color:#000000;
+}
+
+.news-item > span{
+    font-size:12px;
+    color: #656e73;
+}
+
+#news-btn-area{
+    text-align:center;
+}
+
+.news-btn{
+    background-color:#ffffff;
+    border:1px solid #000000;
+    color:#000000;
+    font-weight:700;
+    padding:13px 85px;
+    margin-right:13px;
+}
+
+#more-btn-small{
+    display:none;
+    font-size:14px;
+    color:#000000;
+    line-height:50px;
+    text-decoration: none;
+}
+
+
+
 
 /*hover*/
 .section.hover {
@@ -292,11 +339,8 @@ span.wp-label{
 }
 
 .news-item > h5 > a:hover{
-    color:#9241cb;
+    text-decoration: underline;
     cursor:pointer;
-}
-a:hover{
-    text-decoration: none !important;
 }
 
 .copyright a span:hover {

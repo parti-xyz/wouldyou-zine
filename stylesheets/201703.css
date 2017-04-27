@@ -34,9 +34,7 @@
 }
 
 @media(max-width:450px){
-    #more-btn{ display:none; }
-    #more-btn-small{display:block !important;}
-    .news-item.last, .web-menu, .web-title, .web-block {display:none;}
+    .web-menu, .web-title, .web-block {display:none;}
     .header{ background-image:url('../images/march_cover_mobile_960.png'); }
 
     /*section*/
@@ -68,50 +66,6 @@
     .social-share {
         margin-top: 0 !important;
     }
-}
-
-
-/* news */
-.news-item{
-    border-top:1px solid #dedede;
-    padding:10px 2px;
-    height:57px;
-}
-
-.news-item > h5{
-    margin-top:0px !important;
-    margin-bottom:3px !important;
-    font-size:14px;
-}
-
-.news-item > h5 > a{
-    color:#000000;
-}
-
-.news-item > span{
-    font-size:12px;
-    color: #656e73;
-}
-
-#news-btn-area{
-    text-align:center;
-}
-
-.news-btn{
-    background-color:#ffffff;
-    border:1px solid #000000;
-    color:#000000;
-    font-weight:700;
-    padding:13px 85px;
-    margin-right:13px;
-}
-
-#more-btn-small{
-    display:none;
-    font-size:14px;
-    color:#000000;
-    line-height:50px;
-    text-decoration: none;
 }
 
 
@@ -225,4 +179,8 @@
 
 #moim-section.hover > .overlay:hover{
     background-color:rgba(0,0,0,.7) !important;
+}
+
+.desc-detail:hover {
+    color: #9241cb;
 }
