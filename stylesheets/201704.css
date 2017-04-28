@@ -1,6 +1,6 @@
 @media all and (min-width:950px){
     .header{
-        background:url('../images/201704/april_cover_pc_wide.png') no-repeat center center fixed;
+        background:url('../images/201704/april_cover_pc_wide.png') no-repeat center center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -10,7 +10,7 @@
 
 @media(max-width:950px){
     .header{
-        background:url('../images/201704/april_cover_pc_wide.png') no-repeat center center fixed;
+        background:url('../images/201704/april_cover_pc_wide.png') no-repeat center center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -20,7 +20,7 @@
 
 @media(max-width:450px){
     .header{
-        background:url('../images/201704/april_cover_mobile_nologo.png') no-repeat center center fixed;
+        background:url('../images/201704/april_cover_mobile_nologo.png') no-repeat center center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
