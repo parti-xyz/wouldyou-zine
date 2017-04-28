@@ -35,9 +35,7 @@
     text-decoration: underline;
     cursor:pointer;
 }
-.desc-detail:hover {
-    color: #9241cb;
-}
+
 .sub-title{
     font-size: 20px;
     color: #ffffff;
@@ -154,8 +152,8 @@ a{
 @media(max-width:950px){
     .web-menu, .mobile-title {display:none;}
     .container{ padding:0px; width:100%; }
-    .section-container {width:100%; min-width:780px; }
-    .section{ width:100% !important; min-width:780px; display:block; }
+    .section-container {width:100%; }
+    .section{ width:100% !important; display:block; }
     .header { margin:0px; height:500px !important; }
 }
 
